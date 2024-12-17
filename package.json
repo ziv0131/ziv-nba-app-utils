@@ -1,0 +1,20 @@
+{
+    "name": "ziv-nba-app-utils",
+    "version": "1.0.0",
+    "description": "ziv's nba application's utilities package",
+    "types": "dist/index.d.ts",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Ziv Guimpel",
+    "license": "ISC",
+    "dependencies": {
+      "zod": "^3.24.1"
+    },
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/ziv0131/ziv-nba-app-utils"
+    }
+  }
+  
