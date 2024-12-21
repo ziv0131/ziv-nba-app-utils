@@ -1,24 +1,32 @@
 {
-    "name": "ziv-nba-app-utils",
-    "version": "1.0.3",
-    "description": "ziv's nba application's utilities package",
-    "types": "dist/index.d.ts",
-    "scripts": {
-      "build": "tsc",
-      "test": "echo \"Error: no test specified\" && exit 1"
-    },
-    "author": "Ziv Guimpel",
-    "license": "ISC",
-    "dependencies": {
-      "zod": "^3.24.1"
-    },
-    "repository": {
-      "type": "git",
-      "url": "https://github.com/ziv0131/ziv-nba-app-utils"
-    },
-    "files": [
-      "dist",
-      "README.md"
-    ]
+  "name": "ziv-nba-app-utils",
+  "version": "1.0.5",
+  "description": "ziv's nba application's utilities package",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ziv Guimpel",
+  "license": "ISC",
+  "dependencies": {
+    "zod": "^3.24.1"
+  },
+  "devDependencies": {
+    "typescript": "^4.9.5"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ziv0131/ziv-nba-app-utils"
   }
+}
   
