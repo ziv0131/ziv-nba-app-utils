@@ -3,6 +3,7 @@
   "version": "1.0.6",
   "description": "ziv's nba application's utilities package",
   "types": "dist/index.d.ts",
+  "main": "dist/index.js",
   "exports": {
     ".": {
       "types": "./dist/index.d.ts"
