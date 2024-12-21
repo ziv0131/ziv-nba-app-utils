@@ -1,9 +1,8 @@
 {
     "name": "ziv-nba-app-utils",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "description": "ziv's nba application's utilities package",
     "types": "dist/index.d.ts",
-    "main": "index.js",
     "scripts": {
       "build": "tsc",
       "test": "echo \"Error: no test specified\" && exit 1"
