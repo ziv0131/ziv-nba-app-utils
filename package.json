@@ -1,6 +1,6 @@
 {
   "name": "ziv-nba-app-utils",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "ziv's nba application's utilities package",
   "types": "dist/index.d.ts",
   "exports": {
@@ -29,4 +29,3 @@
     "url": "https://github.com/ziv0131/ziv-nba-app-utils"
   }
 }
-  
