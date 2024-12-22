@@ -1,6 +1,6 @@
 {
   "name": "ziv-nba-app-utils",
-  "version": "1.0.10",
+  "version": "1.0.11",
   "description": "ziv's nba application's utilities package",
   "type": "module",
   "types": "dist/index.d.ts",
