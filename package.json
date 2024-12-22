@@ -1,6 +1,6 @@
 {
   "name": "ziv-nba-app-utils",
-  "version": "1.0.11",
+  "version": "1.0.12",
   "description": "ziv's nba application's utilities package",
   "type": "module",
   "types": "dist/index.d.ts",
@@ -10,7 +10,7 @@
     "README.md"
   ],
   "scripts": {
-    "build": "tsc && cp index.js dist/",
+    "build": "tsc && cpx index.js dist/",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Ziv Guimpel",
@@ -19,6 +19,7 @@
     "zod": "^3.24.1"
   },
   "devDependencies": {
+    "cpx": "^1.5.0",
     "typescript": "^4.9.5"
   },
   "repository": {
