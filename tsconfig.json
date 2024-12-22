@@ -1,15 +1,16 @@
 {
   "compilerOptions": {
-    "target": "ES2015", 
-    "lib": ["ES2015", "DOM"], 
+    "target": "ES2015",
     "module": "CommonJS",
-    "moduleResolution": "Node",
+    "declaration": true,
+    "outDir": "./dist",
     "strict": true,
     "esModuleInterop": true,
     "skipLibCheck": true,
-    "declaration": true,
-    "emitDeclarationOnly": true,
-    "outDir": "dist"
+    "lib": ["ES2015", "DOM"],
+    "moduleResolution": "Node",
+    "emitDeclarationOnly": false
   },
-  "include": ["src"]
+  "include": ["src"],
+  "exclude": ["node_modules", "dist"]
 }

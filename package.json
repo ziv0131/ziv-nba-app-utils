@@ -1,6 +1,6 @@
 {
   "name": "ziv-nba-app-utils",
-  "version": "1.0.12",
+  "version": "1.0.13",
   "description": "ziv's nba application's utilities package",
   "type": "module",
   "types": "dist/index.d.ts",
@@ -10,7 +10,7 @@
     "README.md"
   ],
   "scripts": {
-    "build": "tsc && cpx index.js dist/",
+    "build": "tsc",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Ziv Guimpel",
