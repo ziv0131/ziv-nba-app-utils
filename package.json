@@ -1,6 +1,6 @@
 {
   "name": "ziv-nba-app-utils",
-  "version": "1.0.14",
+  "version": "1.0.15",
   "description": "ziv's nba application's utilities package",
   "type": "module",
   "main": "./dist/index.js",
@@ -8,6 +8,7 @@
   "exports": {
     ".": {
       "import": "./dist/index.js",
+      "types": "./dist/index.js",
       "require": "./dist/index.cjs"
     }
   },  
