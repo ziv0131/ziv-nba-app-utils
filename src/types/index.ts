@@ -6,3 +6,4 @@ export {
   Message,
   MessageSender,
 } from './message';
+export { Chat, chatSchema } from './Chat';

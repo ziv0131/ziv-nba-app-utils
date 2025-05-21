@@ -7,6 +7,8 @@ export {
   messageSchema,
   MessageSender,
   messageSenderSchema,
+  Chat,
+  chatSchema,
 } from './types';
 export {
   isNumber,
