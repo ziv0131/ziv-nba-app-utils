@@ -3,7 +3,7 @@ import { messageSchema, messageSenderSchema } from './message';
 
 export const chatSchema = z.object({
   id: z.string().nonempty(),
-  participants: messageSenderSchema.array(),
+  participants: z.string().nonempty().array(),
   messages: messageSchema.array(),
   title: z.string().nonempty(),
 });
