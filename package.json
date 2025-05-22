@@ -1,6 +1,6 @@
 {
   "name": "ziv-nba-app-utils",
-  "version": "1.0.21",
+  "version": "1.0.22",
   "description": "ziv's nba application's utilities package",
   "type": "module",
   "main": "./dist/index.js",
@@ -11,7 +11,7 @@
       "types": "./dist/index.js",
       "require": "./dist/index.cjs"
     }
-  },  
+  },
   "files": [
     "dist",
     "README.md"
@@ -23,6 +23,7 @@
   "author": "Ziv Guimpel",
   "license": "ISC",
   "dependencies": {
+    "@zodyac/zod-mongoose": "^3.2.0",
     "zod": "^3.24.1"
   },
   "devDependencies": {
